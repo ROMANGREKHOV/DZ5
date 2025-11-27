@@ -12,7 +12,6 @@ int main() {
 			if (j % 6 == 0) {
 				std::cout << '\n';
 			}
-			std::cout << i << j;
 			if (arr[i][j] < min1) {
 				min1 = arr[i][j];
 				min2 = i;
@@ -34,3 +33,4 @@ int main() {
 	return EXIT_SUCCESS;
 
 }
+
