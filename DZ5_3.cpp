@@ -6,7 +6,7 @@ int main() {
 							  {7,8,9,10,11,12},
 							  { 13,14,15,16,17,18 } };
 	std::cout << "Массив:";
-	int max1 = arr[0][0], max2 = arr[0][0], max3 = arr[0][0], min1 = arr[0][0], min2 = arr[0][0], min3 = arr[0][0];
+	int max1 = arr[0][0], max2 = 0, max3 = 0, min1 = arr[0][0], min2 = 0, min3 = 0;
 	for (int i = 0; i < rows; i++) {
 		for (int j = 0; j < columns; j++) {
 			if (j % 6 == 0) {
@@ -31,6 +31,5 @@ int main() {
 
 
 	return EXIT_SUCCESS;
-
 }
 
